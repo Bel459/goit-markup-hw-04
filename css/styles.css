@@ -137,7 +137,9 @@ ul {
 .site-nav .item:hover,
 .site-nav .item:focus,
 .list-head :focus,
-.list-head :active {
+.list-head :active,
+.item-contact-head :hover,
+.item-contact-head :focus{
 	color: var(--accent-color);
 }
 
