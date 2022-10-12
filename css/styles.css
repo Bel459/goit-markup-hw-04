@@ -35,6 +35,7 @@ li {
 	--active-btn: #188ce8;
 	--card-border: #eeeeee;
 	--border-line: #ececec;
+	--team-icon-color: #afb1b8;
 }
 
 body {
@@ -351,7 +352,25 @@ ul {
     width: 206px;
     height: 44px;
 }
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
 
+.social-link {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.social-link:hover .team-social-icon,
+.social-link:focus .team-social-icon {
+  fill: #fff;
+}
+.team-social-icon {
+    fill: var(--team-icon-color);
+}
 /* ------------------------Portfolio page - Buttons--------------------------------- */
 
 .portfolio.section {
