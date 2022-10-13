@@ -39,6 +39,7 @@ li {
 	--clients-color:#afb1b8;
 	--clients-logo-color:#2196F3;
 	--footer-icons-color:#ffffff;
+	--heder-icons-color:#757575;
 }
 
 body {
@@ -166,14 +167,14 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #757575;
+	color: var(--heder-icons-color);
 	font-weight: 500;
 	line-height: 1.14;
 }
 .icon-link-head,
 .icon-link-footer {
 	margin-right: 10px;
-	fill: #757575;
+	fill: currentColor;
 }
 
 .footer-text-icons {
