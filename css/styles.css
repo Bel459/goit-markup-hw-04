@@ -460,11 +460,9 @@ ul {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
+	gap: 8px;
 }
 
-.filter-buttons > li:not(:last-child) {
-	margin-right: 8px;
-}
 
 .portfolio .btn {
 	display: inline-block;
@@ -528,7 +526,7 @@ ul {
 	text-align: left;
 }
 
-/* ------------------------------Footer------------------------------------- */
+/* Footer */
 
 .footer {
 	margin-left: auto;
